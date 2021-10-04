@@ -1,16 +1,25 @@
 .Dictionary section {
   text-align: center;
-  background: #8ec6eb;
+  background: rgb(235, 232, 232);
   padding: 30px;
   border-radius: 5px;
-  box-shadow: 0px 3px 6px rgba(208, 214, 221, 0.7);
-  margin: 20px 0;
+  box-shadow: 0px 5px 6px rgba(167, 173, 180, 0.7);
+  margin: 20px 60px;
+  color: rgb(6, 61, 75);
 }
 
 .Dictionary input {
-  width: 100%;
-  padding: 6px 4px;
+  width: 80%;
+  padding: 6px 6px;
   border-radius: 6px;
-  border: 1 px solid #ddd;
+  border: 1px solid #ddd;
   color: #333;
+}
+
+.Dictionary h1 {
+  color: rgb(86, 82, 90);
+  margin-bottom: 10px;
+  font-size: 34px;
+  font-family: Merriweather;
+  font-weight: bold;
 }
