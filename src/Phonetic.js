@@ -9,7 +9,7 @@ export default function Phonetic(props) {
         target="_blank"
         rel="noreferrer"
         class="audio-link"
-        title="Audio Playback"
+        title="Audio Playback Icon"
       >
         <i class="fas fa-volume-up"></i>
       </a>

@@ -1,14 +1,14 @@
 .Phonetic .audio-link {
-  font-size: 45px;
-  color: rgb(0, 98, 128);
-  transition: all 100ms ease-in-out;
+  font-size: 40px;
+  color: rgb(83, 72, 87);
+  transition: all 110ms ease-in-out;
 }
 
 .Phonetic .audio-link:hover {
-  color: rgb(8, 178, 230);
+  color: #8a624a;
 }
 
 .Phonetic .text {
-  font-size: 32px;
+  font-size: 30px;
   color: rgb(8, 53, 66);
 }

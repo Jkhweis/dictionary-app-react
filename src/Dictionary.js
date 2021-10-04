@@ -56,6 +56,7 @@ export default function Dictionary(props) {
               placeholder="Search word"
             />
           </form>
+          <br />
         </section>
         <Results results={results} />
         <Photos photos={photos} />
