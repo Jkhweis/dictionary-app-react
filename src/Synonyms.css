@@ -2,7 +2,9 @@
   margin: 20px 0 0;
   padding: 0;
   font-size: 20px;
-  font-family: sans-serif;
+  font-family: var(--secondary-font);
+  opacity: 0.9;
+  color: #2e2b31;
 }
 
 .Synonyms li {

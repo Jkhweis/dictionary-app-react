@@ -1,11 +1,12 @@
 .Meaning .definition {
-  color: rgb(11, 40, 48);
+  color: #0b2830;
   font-size: 17px;
   font-family: arial;
 }
 
 .Meaning .example {
-  opacity: 0.8;
-  color: rgb(86, 82, 90);
-  font-size: 19px;
+  color: #784ac7;
+  font-size: 20px;
+  font-family: var(--secondary-font);
+  opacity: 0.9;
 }

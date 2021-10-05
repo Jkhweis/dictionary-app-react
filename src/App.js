@@ -29,7 +29,6 @@ export default function App() {
               open sourced
             </a>
           </p>
-
           <p class="text-center mt-3">
             View my portfolio
             <a

@@ -1,9 +1,15 @@
+:root {
+  --main-font: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  --secondary-font: "Merriweather";
+  --section-color: #dacfcf;
+}
+
 .App {
   background-color: #c7c7d9;
   background-image: url(./spectrum-gradient.svg);
   background-attachment: fixed;
   background-size: cover;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: var(--main-font);
 }
 
 .App-header {
@@ -12,11 +18,16 @@
 
 .App-logo {
   max-width: 190px;
-  box-shadow: 0px 7px 7px rgba(137, 142, 148, 0.7);
+  box-shadow: 0px 7px 7px #898e94b3;
 }
 
 .App-footer {
   margin: 30px 0;
+}
+
+.App a {
+  text-decoration: none;
+  color: #800080;
 }
 
 @media (max-width: 600) {

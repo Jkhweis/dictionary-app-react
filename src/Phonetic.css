@@ -1,6 +1,6 @@
 .Phonetic .audio-link {
   font-size: 40px;
-  color: rgb(83, 72, 87);
+  color: #534857;
   transition: all 110ms ease-in-out;
 }
 
@@ -9,6 +9,6 @@
 }
 
 .Phonetic .text {
-  font-size: 30px;
-  color: rgb(8, 53, 66);
+  font-size: 35px;
+  color: #1f383f;
 }
