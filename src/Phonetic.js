@@ -8,10 +8,10 @@ export default function Phonetic(props) {
         href={props.phonetic.audio}
         target="_blank"
         rel="noreferrer"
-        class="audio-link"
+        className="audio-link"
         title="Audio Playback Icon"
       >
-        <i class="fas fa-volume-up"></i>
+        <i className="fas fa-volume-up"></i>
       </a>
       <br />
       <span className="text">{props.phonetic.text}</span>

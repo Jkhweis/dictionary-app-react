@@ -1,6 +1,6 @@
 import logo from "./pexelsdictionary.jpeg";
-import "./App.css";
 import Dictionary from "./Dictionary";
+import "./App.css";
 
 export default function App() {
   return (
@@ -11,29 +11,31 @@ export default function App() {
           <img
             src={logo}
             className="App-logo mt-4 mb-3 img-fluid rounded"
-            alt="Dictionary App Logo"
+            alt="Dictionary App"
           />
         </header>
         <main>
           <Dictionary defaultKeyword="coffee" />
         </main>
         <footer className="App-footer text-center mb-6">
-          <p class="text-center mt-5">
+          <p className="text-center mt-5">
             This site was coded by Joy Khweis and it is
             <a
               href="https://github.com/Jkhweis/dictionary-app-react"
               target="_blank"
+              rel="noreferrer"
               title="Joy Khweis Github Link"
             >
               {" "}
               open sourced
             </a>
           </p>
-          <p class="text-center mt-3">
+          <p className="text-center mt-3">
             View my portfolio
             <a
               href="https://unruffled-spence-b7412b.netlify.app/index.html"
               target="_blank"
+              rel="noreferrer"
               title="Joy Khweis Portfolio Link"
             >
               {" "}
