@@ -5,7 +5,7 @@ import Photos from './Photos';
 import './Dictionary.css';
 
 export default function Dictionary(props) {
-  let [keyword, setKeyword] = useState(props.defaultKeyword);
+  let [keyword, setKeyword] = useState('');
   let [results, setResults] = useState(null);
   let [loaded, setLoaded] = useState(false);
   let [photos, setPhotos] = useState(null);
@@ -33,10 +33,7 @@ export default function Dictionary(props) {
   function handleSubmit(event) {
     event.preventDefault();
     search();
-  }
-
-  function handleKeywordChange(event) {
-    setKeyword(event.target.value);
+    setKeyword('');
   }
 
   function load() {
@@ -52,7 +49,8 @@ export default function Dictionary(props) {
           <form onSubmit={handleSubmit}>
             <input
               type="search"
-              onChange={handleKeywordChange}
+              onChange={(e) => setKeyword(e.target.value)}
+              value={keyword}
               placeholder="Search word"
             />
             <button className="search-btn">Search</button>

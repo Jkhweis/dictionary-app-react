@@ -2,6 +2,8 @@
   font-size: 40px;
   color: #534857;
   transition: all 110ms ease-in-out;
+  border: none;
+  background-color: #dacfcf;
 }
 
 .Phonetic .audio-link:hover {
@@ -9,6 +11,6 @@
 }
 
 .Phonetic .text {
-  font-size: 35px;
+  font-size: 28px;
   color: #1f383f;
 }

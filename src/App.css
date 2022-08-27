@@ -1,6 +1,6 @@
 :root {
-  --main-font: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  --secondary-font: "Merriweather";
+  --main-font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  --secondary-font: 'Merriweather';
   --section-color: #dacfcf;
 }
 
