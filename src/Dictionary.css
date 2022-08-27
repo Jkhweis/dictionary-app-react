@@ -23,3 +23,15 @@
   font-family: var(--secondary-font);
   font-weight: bold;
 }
+
+.search-btn {
+  margin-left: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: var(--secondary-font);
+}
+
+.search-btn:hover {
+  color: white;
+  background-color: rgb(178, 136, 218, 0.8);
+}
