@@ -1,6 +1,6 @@
-import logo from "./pexelsdictionary.jpeg";
-import Dictionary from "./Dictionary";
-import "./App.css";
+import logo from './pexelsdictionary.jpeg';
+import Dictionary from './Dictionary';
+import './App.css';
 
 export default function App() {
   return (
@@ -15,7 +15,7 @@ export default function App() {
           />
         </header>
         <main>
-          <Dictionary defaultKeyword="coffee" />
+          <Dictionary />
         </main>
         <footer className="App-footer text-center mb-6">
           <p className="text-center mt-5">
@@ -26,7 +26,7 @@ export default function App() {
               rel="noreferrer"
               title="Joy Khweis Github Link"
             >
-              {" "}
+              {' '}
               open sourced
             </a>
           </p>
@@ -38,14 +38,19 @@ export default function App() {
               rel="noreferrer"
               title="Joy Khweis Portfolio Link"
             >
-              {" "}
+              {' '}
               here
             </a>
           </p>
-          <br />
-          <br />
-          <br />
         </footer>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
       </div>
     </div>
   );

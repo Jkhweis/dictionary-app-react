@@ -12,6 +12,13 @@
   font-family: var(--main-font);
 }
 
+.test {
+  background-color: #c7c7d9;
+  background-image: url(./spectrum-gradient.svg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 .App-header {
   margin: 8px 0;
 }
